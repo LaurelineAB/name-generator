@@ -5,6 +5,55 @@
     <title>Name Generator</title>
 </head>
 <body>
+    <form action="">
+        <fieldset>
+            <legend>Prénom</legend>
+            <label for="first-name-gender">Genre</label>
+            <select name="first-name-gender" id="first-name-gender">
+                <option value="random">Aléatoire</option>
+                <option value="feminine">Féminin</option>
+                <option value="masculine">Masculin</option>
+                <option value="unisex">Mixte</option>
+            </select>
+            <label for="first-name-origin">Origine</label>
+            <select name="first-name-origin" id="first-name-origin">
+                <option value="random">Aléatoire</option>
+                <option value="french">France</option>
+                <option value="english">Anglais</option>
+                <option value="spanish">Espagnol</option>
+            </select>
+            <label for="first-name-time">Epoque</label>
+            <select name="first-name-time" id="first-name-time">
+                <option value="random">Aléatoire</option>
+                <option value="contemporary">Contemporain</option>
+            </select>
+            <label for="first-name-rarity">Rareté</label>
+            <select name="first-name-rarity" id="first-name-rarity">
+                <option value="random">Aléatoire</option>
+                <option value="common">Commun</option>
+                <option value="rare">Rare</option>
+                <option value="original">Original</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Nom</legend>
+            <label for="last-name-origin">Origine</label>
+            <select name="last-name-origin" id="last-name-origin">
+                <option value="random">Aléatoire</option>
+                <option value="french">France</option>
+                <option value="english">Anglais</option>
+                <option value="spanish">Espagnol</option>
+            </select>
+            <label for="last-name-rarity">Rareté</label>
+            <select name="last-name-rarity" id="last-name-rarity">
+                <option value="random">Aléatoire</option>
+                <option value="common">Commun</option>
+                <option value="rare">Rare</option>
+                <option value="original">Original</option>
+            </select>
+        </fieldset>
+        <input type="submit" name="submit" value="Générer un nom"/>
+    </form>
     
     <script type="module" src="assets/js/index.js"></script>
 </body>
